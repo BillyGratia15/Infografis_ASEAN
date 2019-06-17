@@ -30,4 +30,6 @@ plt.ylabel('Populasi (x100jt jiwa)',fontsize=10)
 plt.xticks(rotation = 45, fontsize=7) 
 plt.yticks(fontsize=7) 
 plt.grid(True)
+plt.savefig('1.png')
+
 plt.show()

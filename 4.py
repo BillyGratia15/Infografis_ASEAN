@@ -20,5 +20,5 @@ warna = ['r', 'orange', 'y', 'g', 'b', 'k', 'purple', 'pink', 'r', 'y', 'b']
 plt.title('Persentase Luas Daratan ASEAN',fontsize=15)
 
 plt.pie(y,labels=x, colors=warna, autopct='%.1f%%')
-
+plt.savefig('4.png')
 plt.show()
